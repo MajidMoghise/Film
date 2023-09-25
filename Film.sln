@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{06CB9451-9286-43B7-96A4-7D4834D06037}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{06B4597D-2672-448C-B3CD-1B1FF802D184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6FAD6D4C-82B8-4156-A782-17009CD23CF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{44723D74-2A08-4CF0-8AEA-85279739AD60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{77E1C34C-B7FA-4C5B-A3EB-9AE5BA937678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{07B2F658-4087-455B-99F6-09FEB771F1C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{16850F87-AA15-47F6-AA1C-05532FA7B5E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Film.WebAPI", "src\Presentation\Film.WebAPI\Film.WebAPI.csproj", "{4BB1EAA1-AEA1-4AA3-932B-7720E533BF65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Film.Domain", "src\Domain\Film.Domain\Film.Domain.csproj", "{D8E200B9-1B26-4B1A-94D6-8B80278A33C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film.Domain.Contract", "src\Domain\Film.Domain.Contract\Film.Domain.Contract.csproj", "{6A25FB4F-B6AB-4B27-AB17-BD8A4675F601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film.Infrastructure.Persistance", "src\Infrastructure\Film.Infrastructure.Persistance\Film.Infrastructure.Persistance.csproj", "{D7771B58-DAD6-4701-81B9-29F32CE3A847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film.Application", "src\Application\Film.Application\Film.Application.csproj", "{80628A36-E4EA-4633-BFA0-79745E073332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film.Application.Contract", "src\Application\Film.Application.Contract\Film.Application.Contract.csproj", "{40B4793E-85E7-4D78-BF0B-0F0ACECC5174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film.SqlQuery", "src\Infrastructure\Film.SqlQuery\Film.SqlQuery.csproj", "{6E86AD69-20BD-422E-8C3F-6323C668B500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB1EAA1-AEA1-4AA3-932B-7720E533BF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB1EAA1-AEA1-4AA3-932B-7720E533BF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB1EAA1-AEA1-4AA3-932B-7720E533BF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB1EAA1-AEA1-4AA3-932B-7720E533BF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E200B9-1B26-4B1A-94D6-8B80278A33C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E200B9-1B26-4B1A-94D6-8B80278A33C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E200B9-1B26-4B1A-94D6-8B80278A33C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E200B9-1B26-4B1A-94D6-8B80278A33C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A25FB4F-B6AB-4B27-AB17-BD8A4675F601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A25FB4F-B6AB-4B27-AB17-BD8A4675F601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A25FB4F-B6AB-4B27-AB17-BD8A4675F601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A25FB4F-B6AB-4B27-AB17-BD8A4675F601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7771B58-DAD6-4701-81B9-29F32CE3A847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7771B58-DAD6-4701-81B9-29F32CE3A847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7771B58-DAD6-4701-81B9-29F32CE3A847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7771B58-DAD6-4701-81B9-29F32CE3A847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80628A36-E4EA-4633-BFA0-79745E073332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80628A36-E4EA-4633-BFA0-79745E073332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80628A36-E4EA-4633-BFA0-79745E073332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80628A36-E4EA-4633-BFA0-79745E073332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B4793E-85E7-4D78-BF0B-0F0ACECC5174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B4793E-85E7-4D78-BF0B-0F0ACECC5174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B4793E-85E7-4D78-BF0B-0F0ACECC5174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B4793E-85E7-4D78-BF0B-0F0ACECC5174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E86AD69-20BD-422E-8C3F-6323C668B500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E86AD69-20BD-422E-8C3F-6323C668B500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E86AD69-20BD-422E-8C3F-6323C668B500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E86AD69-20BD-422E-8C3F-6323C668B500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06B4597D-2672-448C-B3CD-1B1FF802D184} = {06CB9451-9286-43B7-96A4-7D4834D06037}
+		{77E1C34C-B7FA-4C5B-A3EB-9AE5BA937678} = {06CB9451-9286-43B7-96A4-7D4834D06037}
+		{07B2F658-4087-455B-99F6-09FEB771F1C6} = {06CB9451-9286-43B7-96A4-7D4834D06037}
+		{16850F87-AA15-47F6-AA1C-05532FA7B5E8} = {06CB9451-9286-43B7-96A4-7D4834D06037}
+		{4BB1EAA1-AEA1-4AA3-932B-7720E533BF65} = {16850F87-AA15-47F6-AA1C-05532FA7B5E8}
+		{D8E200B9-1B26-4B1A-94D6-8B80278A33C7} = {06B4597D-2672-448C-B3CD-1B1FF802D184}
+		{6A25FB4F-B6AB-4B27-AB17-BD8A4675F601} = {06B4597D-2672-448C-B3CD-1B1FF802D184}
+		{D7771B58-DAD6-4701-81B9-29F32CE3A847} = {07B2F658-4087-455B-99F6-09FEB771F1C6}
+		{80628A36-E4EA-4633-BFA0-79745E073332} = {77E1C34C-B7FA-4C5B-A3EB-9AE5BA937678}
+		{40B4793E-85E7-4D78-BF0B-0F0ACECC5174} = {77E1C34C-B7FA-4C5B-A3EB-9AE5BA937678}
+		{6E86AD69-20BD-422E-8C3F-6323C668B500} = {07B2F658-4087-455B-99F6-09FEB771F1C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C594515D-0739-4A51-8B41-43FEC3E38C75}
+	EndGlobalSection
+EndGlobal
